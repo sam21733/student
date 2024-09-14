@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_csv('/workspaces/student/StudentsPerformance.csv')
+data = pd.read_csv('StudentsPerformance.csv')
 
 df = pd.DataFrame(data)
 
